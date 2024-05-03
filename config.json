@@ -1,0 +1,17 @@
+{
+    "server": "server",  // the address your server listens
+    "server_port": server_port,  // server port
+    "local_address": "127.0.0.1",  // the address your local listens0.0.0.0 or 127.0.0.1
+    "local_port": 1080,  // local port
+    "password": "password",  // password used for encryption
+    "timeout": 300,  // in seconds
+    "method": "aes-256-cfb",  // default: "aes-256-cfb", see https://github.com/shadowsocks/shadowsocks/wiki/Encryption
+    "protocol": "protocol",
+    "protocol_param": "protocol_param",
+    "obfs": "obfs",
+    "obfs_param": "obfs_param",
+    "redirect":"",
+    "dns_ipv6":false,
+    "fast_open":false,  // use [TCP_FASTOPEN](https://github.com/shadowsocks/shadowsocks/wiki/TCP-Fast-Open), true / false
+    "workers":1
+}
